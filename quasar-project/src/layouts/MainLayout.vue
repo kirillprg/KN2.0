@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
       </q-toolbar>
-      <q-tabs align="left">
+      <q-tabs align="center">
         <q-route-tab to= "/oMne" label="O mně" />
         <q-route-tab to= "/galerie" label="Galerie" />
         <q-route-tab to= "/kontaktyrezervace" label="kontakty a kalendář" />
@@ -42,6 +42,7 @@
  <q-drawer 
  show-if-above 
  v-model="leftDrawerOpen" 
+ :width="200"
  ide="left" 
  elevated>
       <q-list>
@@ -66,6 +67,10 @@
     </q-page-container>
   </q-layout>
 </template>
+
+
+
+
 
 <script>
 
@@ -144,5 +149,11 @@ export default defineComponent({
   opacity: 0.3;
   filter:contrast(100%)
 }
+.text-h3{
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+
+}
+
 
 </style>
