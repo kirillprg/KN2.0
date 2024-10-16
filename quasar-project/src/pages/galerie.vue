@@ -2,7 +2,7 @@
 <div id="q-app">
     <div class="fit column items-center content-stretch" style="overflow: auto; resize: none">
 
-        <div id="q-app" >
+        <div id="q-app">
             <div class="q-pa-md">
 
                 <q-carousel v-model="slide" vertical transition-prev="slide-down" transition-next="slide-up" swipeable animated control-color="white" navigation-icon="radio_button_unchecked" navigation-active-icon="ion-add" navigation navigation-position=right arrows infinite keep-alive transition-duration=500 class="bg-grey-3 shadow-2 rounded-borders">
@@ -81,6 +81,11 @@ export default {
         // Optionally, you can add an event listener to update values when the window is resized
     }
 }
+/*
+<q-carousel-slide :name="2" src="quasar-project\src\statics\galer\galer2.jpg" />
+        <q-carousel-slide :name="3" img-src="quasar-project\src\statics\galer\galer3.jpg"/>
+        <q-carousel-slide :name="4" img-src="quasar-project\src\statics\galer\galer4.jpg" />
+*/
 </script>
 
 <style lang="sass" scoped>

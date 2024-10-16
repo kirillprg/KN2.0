@@ -42,6 +42,10 @@
 </q-layout>
 </template>
 
+
+
+
+
 <script>
 import {
     date
@@ -121,6 +125,12 @@ export default defineComponent({
     opacity: 0.3;
     filter: contrast(100%)
 }
+.text-h3{
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+
+}
+
 
 .text-h3 {
     font-family: 'Asap', sans-serif;
